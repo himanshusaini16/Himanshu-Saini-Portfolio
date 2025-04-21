@@ -7,23 +7,23 @@ export const Footer = () => (
     <p className="text-blue-400 mb-6 text-sm">Full Stack Developer | Problem Solver | Tech Enthusiast</p>
 
     <div className="flex flex-wrap justify-center gap-6 mb-6">
-      <a href="https://github.com/your-github-username" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-white transition">
+      <a href="https://github.com/himanshusaini16" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-white transition">
         <FaGithub className="text-2xl mb-1" />
         <span className="text-xs">GitHub</span>
       </a>
-      <a href="https://leetcode.com/your-leetcode-username" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-yellow-400 transition">
+      <a href="https://leetcode.com/u/himanshu__saini_____/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-yellow-400 transition">
         <SiLeetcode className="text-2xl mb-1" />
         <span className="text-xs">LeetCode</span>
       </a>
-      <a href="https://linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-blue-500 transition">
+      <a href="http://linkedin.com/in/himanshu-saini-1a516325a/" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-blue-500 transition">
         <FaLinkedin className="text-2xl mb-1" />
         <span className="text-xs">LinkedIn</span>
       </a>
-      <a href="mailto:yourmail@example.com" className="flex flex-col items-center hover:text-red-400 transition">
+      <a href="mailto:himanshusaini025@gmail.com" className="flex flex-col items-center hover:text-red-400 transition">
         <FaEnvelope className="text-2xl mb-1" />
         <span className="text-xs">Email</span>
       </a>
-      <a href="https://wa.me/91xxxxxxxxxx" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-green-400 transition">
+      <a href="https://wa.me/919670152557" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-green-400 transition">
         <FaWhatsapp className="text-2xl mb-1" />
         <span className="text-xs">WhatsApp</span>
       </a>
