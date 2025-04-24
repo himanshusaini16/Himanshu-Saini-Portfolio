@@ -35,7 +35,7 @@ export const Profile = () => (
       </a>
 
       <a
-        href="/RESUME1.pdf"
+        href="/Himanshu_Saini.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="border border-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition"
@@ -44,7 +44,7 @@ export const Profile = () => (
       </a>
 
       <a
-        href="/RESUME1.pdf"
+        href="/Himanshu_Saini.pdf"
         download
         className="border border-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition"
       >
