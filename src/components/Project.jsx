@@ -1,5 +1,13 @@
 export const Project = () => {
   const projects = [
+     {
+      title: "AI-POWERED MEDICAL DIAGNOSTIC PLATFORM WITH WEB ACCESS",
+      description:
+        "A full-stack web application for early disease detection using a hybrid AI approach. Combines ANN models for structured data (Diabetes, Heart Disease) and CNN models for medical images (Skin Cancer, Eye Disease, Varicose Veins). Built with React.js, Node.js, MongoDB, and TensorFlow.js. Includes real-time chat, doctor booking, and medicine ordering features.",
+      image: "/project/aiPowered.png",
+      liveLink: "https://medi-scan-mrwk.vercel.app/",
+      githubLink: "https://github.com/himanshusaini16/MediScan",
+    },
     {
       title: "Quiz App",
       description:
@@ -46,10 +54,10 @@ export const Project = () => {
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover bg-white"
+              className="w-full h-48 object-cover bg-white border-spacing-1"
             />
             <div className="p-6">
-              <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
+              <h3 className="text-xl font-semibold text-indigo-100 mb-2">{project.title}</h3>
               <p className="text-sm mb-4">{project.description}</p>
               <div className="flex gap-4 flex-wrap">
                 {project.liveLink && (
