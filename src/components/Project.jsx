@@ -29,7 +29,7 @@ export const Project = () => {
       description:
         "GUI-based image classification app using TensorFlow and CNN (83% accuracy). Features real-time image prediction with a simple Tkinter interface.",
       image: "/project/classification.png",
-      // liveLink: "https://your-image-classifier-link.com",
+      liveLink: "https://image-classification-using-deep-learning-otakknrwxxtdyt24ri8sc.streamlit.app/",
       githubLink: "https://github.com/himanshusaini16/Image-Classification-Using-Deep-Learning",
     },
     {
