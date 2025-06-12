@@ -27,7 +27,7 @@ export const Project = () => {
     {
       title: "Image Classification - Deep Learning Application",
       description:
-        "GUI-based image classification app using TensorFlow and CNN (83% accuracy). Features real-time image prediction with a simple Tkinter interface.",
+        "I developed a web-based animal image classification application using a Convolutional Neural Network (CNN) trained on seven classes: cat, dog, elephant, horse, lion, panda, and tiger. The model, built with TensorFlow, processes user-uploaded images in real-time to predict the animal class along with a confidence score. The frontend was designed using Streamlit, enhanced with custom CSS for a clean and engaging user experience. Additional features include a probability bar chart and detailed confidence metrics for all classes. The project was successfully deployed on Streamlit Cloud with Python 3.10 compatibility, demonstrating skills in deep learning, model deployment, and real-time computer vision.",
       image: "/project/classification.png",
       liveLink: "https://image-classification-using-deep-learning-otakknrwxxtdyt24ri8sc.streamlit.app/",
       githubLink: "https://github.com/himanshusaini16/Image-Classification-Using-Deep-Learning",
