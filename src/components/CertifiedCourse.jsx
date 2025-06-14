@@ -1,6 +1,13 @@
 export const CertifiedCourses = () => {
   const courses = [
     {
+      title:"Complete A.I. & Machine Learning, Data Science Bootcamp",
+      platform:"Udemy",
+      description :"Learned data science and machine learning from scratch, covering Python, Pandas, NumPy, Scikit-learn, TensorFlow, neural networks, and data visualization.",
+      link:"https://www.udemy.com/certificate/UC-22334297-0df1-4a09-b163-c24d0bb0aa77/",
+      image:"/project/ai-ml.png",
+    },
+    {
       title: "Java Spring Framework 6 with Spring Boot 3",
       platform: "Udemy",
       description:
