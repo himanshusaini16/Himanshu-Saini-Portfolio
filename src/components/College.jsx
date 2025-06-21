@@ -4,7 +4,7 @@ export const College = () => {
       title: "Graphic Era Hill University",
       degree: "B.Tech in Computer Science",
       duration: "2021 – 2025",
-      score: "7.91 CGPA",
+      score: "7.95 CGPA",
       image: "/education/graphic.jpg",
     },
     {
@@ -30,19 +30,19 @@ export const College = () => {
       <div className="relative max-w-3xl mx-auto border-l-4 border-blue-400">
         {educationData.map((edu, index) => (
           <div className="relative pl-10 mb-12 group" key={index}>
-            {/* Vertical Dot */}
+            
             <span className="absolute -left-[9px] top-1/2 transform -translate-y-1/2 w-4 h-4 bg-blue-500 rounded-full border-2 border-white transition-all duration-300 group-hover:scale-125"></span>
 
-            {/* Education Card */}
+            
             <div className="bg-gray-800 p-6 rounded-xl shadow-lg flex items-center gap-4 group-hover:shadow-blue-400 transform transition duration-300 group-hover:scale-105">
-              {/* College/School Image */}
+              
               <img
                 src={edu.image}
                 alt={edu.title}
                 className="w-16 h-16 object-cover rounded-lg border border-blue-400"
               />
 
-              {/* Text Info */}
+              
               <div>
                 <h3 className="text-xl font-semibold">{edu.title}</h3>
                 <p className="text-sm text-gray-300">{edu.degree}</p>
