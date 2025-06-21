@@ -43,7 +43,7 @@ export const Project = () => {
       image: "/project/employee.png",
       githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
       exeFile: "/project/Employee.exe",
-      videoLink: "https://youtu.be/YOUR_VIDEO_ID_5",
+      videoLink: "https://youtu.be/7GB4EKC8TnE",
     },
     {
       title: "ATM Interface",
@@ -52,7 +52,7 @@ export const Project = () => {
       image: "/project/atmInterface.png",
       githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
       exeFile: "/project/atm.exe",
-      videoLink: "https://youtu.be/YOUR_VIDEO_ID_6",
+      videoLink: "https://youtu.be/oy_EWdbzsxA",
     },
     {
       title: "Number Guess Game",
@@ -61,7 +61,7 @@ export const Project = () => {
       image: "/project/numbergame.png",
       githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
       exeFile: "/project/Guessgame.exe",
-      videoLink: "https://youtu.be/YOUR_VIDEO_ID_7",
+      videoLink: "https://youtu.be/sYRmfCCwD4I",
     },
     {
       title: "Currency Converter",
@@ -70,7 +70,7 @@ export const Project = () => {
       image: "/project/currency.png",
       githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
       exeFile: "/project/Currencyconvertor.exe",
-      videoLink: "https://youtu.be/YOUR_VIDEO_ID_8",
+      videoLink: "https://youtu.be/zh4OKkYHG00",
     },
     {
       title: "Student Grade Calculator",
@@ -79,7 +79,7 @@ export const Project = () => {
       image: "/project/grade.png",
       githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
       exeFile: "/project/Studentgradecalculator.exe",
-      videoLink: "https://youtu.be/YOUR_VIDEO_ID_9",
+      videoLink: "https://youtu.be/s5A1ZVVIluY",
     },
   ];
 
