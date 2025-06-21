@@ -1,44 +1,85 @@
 export const Project = () => {
   const projects = [
-     {
+    {
       title: "AI-POWERED MEDICAL DIAGNOSTIC PLATFORM WITH WEB ACCESS",
       description:
-        "A full-stack web application for early disease detection using a hybrid AI approach. Combines ANN models for structured data (Diabetes, Heart Disease) and CNN models for medical images (Skin Cancer, Eye Disease, Varicose Veins). Built with React.js, Node.js, MongoDB, and TensorFlow.js. Includes real-time chat, doctor booking, and medicine ordering features.",
+        "A full-stack web application for early disease detection using AI. Combines ANN (Diabetes, Heart Disease) and CNN (Skin Cancer, Eye Disease, Varicose Veins) models. Built with React.js, Node.js, MongoDB, TensorFlow.js. Includes real-time chat, doctor booking, and medicine ordering.",
       image: "/project/aiPowered.png",
       liveLink: "https://medi-scan-mrwk.vercel.app/",
       githubLink: "https://github.com/himanshusaini16/MediScan",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_1",
     },
     {
       title: "Quiz App",
       description:
-        "A dynamic and scalable quiz application built using microservices architecture. It includes user and admin modules, JWT authentication, and real-time score evaluation. The backend is powered by Spring Boot and PostgreSQL, and the frontend is crafted using React.js. Deployed using Docker and integrated through an API Gateway.",
+        "Microservice-based quiz app with JWT-auth, admin controls, and real-time scoring. Built with Spring Boot, PostgreSQL, React.js. Integrated via API Gateway and deployed with Docker.",
       image: "/project/quiz.png",
       liveLink: "https://quizapplicationsaini.netlify.app/",
       githubLink: "https://github.com/himanshusaini16/Quiz--Application-Frontend",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_2",
     },
     {
       title: "Airbnb Clone - Rental Booking Platform",
       description:
-        "Built an Airbnb-like platform with dynamic listings, user authentication, and booking management. Developed a RESTful API using Node.js, Express.js, and MongoDB. Deployed on Render.com for scalability and reliable hosting.",
+        "Rental booking platform with authentication, listings, and booking features. Built using Node.js, Express, MongoDB. Deployed on Render.",
       image: "/project/airbnb.png",
       liveLink: "https://your-airbnb-clone-link.com",
       githubLink: "https://github.com/himanshusaini16/WEB-PROJECT",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_3",
     },
     {
       title: "Image Classification - Deep Learning Application",
       description:
-        "I developed a web-based animal image classification application using a Convolutional Neural Network (CNN) trained on seven classes: cat, dog, elephant, horse, lion, panda, and tiger. The model, built with TensorFlow, processes user-uploaded images in real-time to predict the animal class along with a confidence score. The frontend was designed using Streamlit, enhanced with custom CSS for a clean and engaging user experience. Additional features include a probability bar chart and detailed confidence metrics for all classes. The project was successfully deployed on Streamlit Cloud with Python 3.10 compatibility, demonstrating skills in deep learning, model deployment, and real-time computer vision.",
+        "Streamlit-based CNN image classifier for 7 animals. Shows real-time predictions with probability charts and custom UI.",
       image: "/project/classification.png",
       liveLink: "https://image-classification-using-deep-learning-otakknrwxxtdyt24ri8sc.streamlit.app/",
       githubLink: "https://github.com/himanshusaini16/Image-Classification-Using-Deep-Learning",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_4",
     },
     {
-      title: "Smart Employee Manager - Management System",
+      title: "Smart Employee Manager",
       description:
-        "Java Swing-based Employee Management System with MySQL integration. Includes full CRUD support and reliable data handling.",
+        "Java Swing + MySQL CRUD system for managing employees. Admin login with full access to add, edit, delete, and view records.",
       image: "/project/employee.png",
-      // liveLink: "https://your-employee-manager-link.com",
       githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
+      exeFile: "/project/Employee.exe",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_5",
+    },
+    {
+      title: "ATM Interface",
+      description:
+        "Java Swing ATM simulator for balance check, withdrawal, deposit, PIN change. Features GUI, PIN verification, and transaction logic.",
+      image: "/project/atmInterface.png",
+      githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
+      exeFile: "/project/atm.exe",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_6",
+    },
+    {
+      title: "Number Guess Game",
+      description:
+        "Guess the number (1-100) game with score and attempts logic. Java Swing GUI gives real-time feedback with retry options.",
+      image: "/project/numbergame.png",
+      githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
+      exeFile: "/project/Guessgame.exe",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_7",
+    },
+    {
+      title: "Currency Converter",
+      description:
+        "Java Swing app for converting between currencies like INR, USD, GBP, AUD, etc. Features a styled GUI with real-time conversion.",
+      image: "/project/currency.png",
+      githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
+      exeFile: "/project/Currencyconvertor.exe",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_8",
+    },
+    {
+      title: "Student Grade Calculator",
+      description:
+        "Java Swing tool to compute marks, percentage, and academic grades from 5 subjects. Shows grade instantly with input validation.",
+      image: "/project/grade.png",
+      githubLink: "https://github.com/himanshusaini16/Smart-Employee-Mangement-System",
+      exeFile: "/project/Studentgradecalculator.exe",
+      videoLink: "https://youtu.be/YOUR_VIDEO_ID_9",
     },
   ];
 
@@ -49,25 +90,25 @@ export const Project = () => {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-blue-400 transition duration-300"
+            className="bg-gray-800 rounded-2xl overflow-hidden shadow-md hover:shadow-blue-400 transition duration-300 flex flex-col"
           >
             <img
               src={project.image}
               alt={project.title}
-              className="w-full h-48 object-cover bg-white border-spacing-1"
+              className="w-full h-60 object-cover bg-white"
             />
-            <div className="p-6">
+            <div className="p-6 flex flex-col flex-grow">
               <h3 className="text-xl font-semibold text-indigo-100 mb-2">{project.title}</h3>
-              <p className="text-sm mb-4">{project.description}</p>
-              <div className="flex gap-4 flex-wrap">
+              <p className="text-sm text-gray-200 mb-4">{project.description}</p>
+              <div className="mt-auto flex gap-2 flex-wrap">
                 {project.liveLink && (
                   <a
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-blue-500 hover:bg-blue-600 text-white rounded-lg transition text-sm"
+                    className="px-4 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg text-sm"
                   >
-                    Live Link
+                    Live Site
                   </a>
                 )}
                 {project.githubLink && (
@@ -75,9 +116,28 @@ export const Project = () => {
                     href={project.githubLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition text-sm"
+                    className="px-4 py-2 bg-gray-600 hover:bg-gray-700 rounded-lg text-sm"
                   >
                     GitHub
+                  </a>
+                )}
+                {project.videoLink && (
+                  <a
+                    href={project.videoLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-4 py-2 bg-red-600 hover:bg-red-700 rounded-lg text-sm"
+                  >
+                    Demo Video
+                  </a>
+                )}
+                {project.exeFile && (
+                  <a
+                    href={project.exeFile}
+                    download
+                    className="px-4 py-2 bg-green-600 hover:bg-green-700 rounded-lg text-sm"
+                  >
+                    Download exe 
                   </a>
                 )}
               </div>
