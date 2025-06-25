@@ -1,4 +1,5 @@
 import { Typewriter } from 'react-simple-typewriter';
+import { FiDownload } from 'react-icons/fi';
 
 export const Profile = () => (
   <section className="flex flex-col items-center justify-center h-screen text-center px-4">
@@ -33,23 +34,27 @@ export const Profile = () => (
       >
         View My Project
       </a>
-
+<div className="flex">
+      {/* View Resume */}
       <a
         href="/Himanshu_Saini.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="border border-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition"
+        className="flex items-center border border-blue-400 bg-blue-600 text-white px-6 py-2 rounded-l-full hover:bg-blue-700 transition"
       >
-        View Resume
+        Resume
       </a>
 
+      {/* Download Resume */}
       <a
         href="/Himanshu_Saini.pdf"
         download
-        className="border border-blue-400 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition"
+        className="flex items-center border border-blue-400 bg-blue-500 text-white px-4 py-2 rounded-r-full hover:bg-blue-700 transition"
       >
-        Download Resume
+        <FiDownload className="h-5 w-5" />
       </a>
+    </div>
+
     </div>
   </section>
 );
