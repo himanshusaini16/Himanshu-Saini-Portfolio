@@ -44,7 +44,6 @@ export const Profile = () => (
       >
         Resume
       </a>
-
       {/* Download Resume */}
       <a
         href="/Himanshu_Saini_Resume.pdf"
