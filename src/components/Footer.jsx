@@ -23,7 +23,7 @@ export const Footer = () => (
         <FaEnvelope className="text-2xl mb-1" />
         <span className="text-xs">Email</span>
       </a>
-      <a href="https://wa.me/919670152557" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-green-400 transition">
+      <a href="https://wa.me/919026712409" target="_blank" rel="noopener noreferrer" className="flex flex-col items-center hover:text-green-400 transition">
         <FaWhatsapp className="text-2xl mb-1" />
         <span className="text-xs">WhatsApp</span>
       </a>

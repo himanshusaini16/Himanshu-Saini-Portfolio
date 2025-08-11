@@ -37,7 +37,7 @@ export const Profile = () => (
 <div className="flex">
       {/* View Resume */}
       <a
-        href="/Himanshu_Saini.pdf"
+        href="/Himanshu_Saini_Resume.pdf"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center border border-blue-400 bg-blue-600 text-white px-6 py-2 rounded-l-full hover:bg-blue-700 transition"
@@ -47,7 +47,7 @@ export const Profile = () => (
 
       {/* Download Resume */}
       <a
-        href="/Himanshu_Saini.pdf"
+        href="/Himanshu_Saini_Resume.pdf"
         download
         className="flex items-center border border-blue-400 bg-blue-500 text-white px-4 py-2 rounded-r-full hover:bg-blue-700 transition"
       >

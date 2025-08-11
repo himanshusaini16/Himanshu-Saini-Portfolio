@@ -1,14 +1,6 @@
 import React from 'react';
 import { Navbar } from './components/Navbar';
 
-// import { About } from './components/About';
-// import { Skills } from './components/Skills';
-// import { Projects } from './components/Projects';
-// import { Certificates } from './components/Certificates';
-// import { CertifiedCourses } from './components/CertifiedCourses';
-// import { College } from './components/College';
-// import { Contact } from './components/Contact';
-// import { Footer } from './components/Footer';
 import { Profile } from './components/Profile';
 import { Skills } from './components/Skills';
 import { About } from './components/About';
