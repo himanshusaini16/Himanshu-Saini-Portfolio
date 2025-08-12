@@ -23,7 +23,7 @@ export const Project = () => {
       description:
         "Rental booking platform with authentication, listings, and booking features. Built using Node.js, Express, MongoDB. Deployed on Render.",
       image: "/project/airbnb.png",
-      liveLink: "https://your-airbnb-clone-link.com",
+      liveLink: "https://airbnb-clone-thgk.onrender.com",
       githubLink: "https://github.com/himanshusaini16/WEB-PROJECT",
       videoLink: "https://youtu.be/YOUR_VIDEO_ID_3",
     },
