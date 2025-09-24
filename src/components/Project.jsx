@@ -1,6 +1,15 @@
 export const Project = () => {
   const projects = [
     {
+      title: "BOOK FINDER PLATFORM",
+      description:
+        "A React-based web application that fetches book data from a public API. Users can search for books, view details, and explore results in an interactive and responsive UI. Built with React.js and Tailwind CSS, deployed on Netlify for seamless access.",
+      image: "/project/book.png",
+      liveLink: "https://taskbookfinder.netlify.app/",
+      githubLink: "https://github.com/himanshusaini16/Book-Finder",
+      videoLink: "https://youtu.be/uzXFc0M17co",
+    },
+    {
       title: "STORE REVIEW PLATFORM",
       description:
         "A MERN-stack web application that allows users to rate and review local stores. Built with React.js, Node.js, Express, and PostgreSQL. Includes user authentication, role-based access, and interactive dashboards. Supports store listings, review submissions, and average rating calculations with real-time updates.",

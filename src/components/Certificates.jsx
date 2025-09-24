@@ -2,6 +2,10 @@ import React, { useState } from "react";
 
 export const Certificates = () => {
   const certificates = [
+     {
+      title: "CRM 101: Fundamentals – Enjay IT Solutions (Sangam CRM)",
+      image: "/project/CRM.jpg",
+    },
     {
       title: "Walmart USA Advanced Software Engineering Virtual Experience",
       image: "/project/Walmart.jpg",
