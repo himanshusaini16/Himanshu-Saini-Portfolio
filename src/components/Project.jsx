@@ -1,6 +1,15 @@
 export const Project = () => {
   const projects = [
     {
+  title: "REAL-TIME MULTIPLAYER UNO GAME",
+  description:
+    "A full-stack real-time multiplayer UNO game supporting CPU and friend-based matches. Features live gameplay synchronization using WebSocket, real-time audio communication via WebRTC, and secure authentication with JWT. Built with a React.js frontend and a Spring Boot backend, containerized using Docker for scalable deployment.",
+  image: "/project/uno.png",
+  liveLink: "https://uno-game-sepia.vercel.app/",
+  githubLink: "https://github.com/himanshusaini16/UNO-GAME"
+}
+,
+    {
       title: "BOOK FINDER PLATFORM",
       description:
         "A React-based web application that fetches book data from a public API. Users can search for books, view details, and explore results in an interactive and responsive UI. Built with React.js and Tailwind CSS, deployed on Netlify for seamless access.",

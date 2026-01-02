@@ -1,5 +1,16 @@
 export const CertifiedCourses = () => {
   const courses = [
+
+    {
+  title: "Database Management Essentials  - Coursera",
+  description:
+    "Learned core database concepts including relational database design, SQL fundamentals, normalization, transactions, indexing, and efficient data management practices.",
+  link: "https://www.coursera.org/account/accomplishments/verify/N5J4EHWP2BXW",
+  image: "/project/database.png",
+},
+
+
+    
     {
       title:"Complete A.I. & Machine Learning, Data Science Bootcamp",
       platform:"Udemy",
