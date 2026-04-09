@@ -7,8 +7,14 @@ import {
   FaDocker,
   FaHtml5,
   FaRobot,
-  FaCloud
+  FaCloud,
+  FaDesktop,
+  FaTools,
+  FaNetworkWired,
+  FaHeadset,
+  FaLinux
 } from "react-icons/fa";
+
 import {
   SiTailwindcss,
   SiMongodb,
@@ -25,6 +31,14 @@ import {
 
 export const Skills = () => {
   const skills = [
+    { name: "Windows OS", icon: <FaDesktop />, level: 85 },
+    { name: "Linux OS", icon: <FaLinux />, level: 70 },
+    { name: "Troubleshooting", icon: <FaTools />, level: 90 },
+    { name: "Desktop Support", icon: <FaDesktop />, level: 85 },
+    { name: "Networking (TCP/IP)", icon: <FaNetworkWired />, level: 75 },
+    { name: "DNS / DHCP", icon: <FaNetworkWired />, level: 70 },
+    { name: "Remote Support", icon: <FaHeadset />, level: 80 },
+    { name: "System Configuration", icon: <FaTools />, level: 75 },
     { name: "HTML", icon: <FaHtml5 />, level: 80 },
     { name: "CSS", icon: <SiCss3 />, level: 85 },
     { name: "React.js", icon: <FaReact />, level: 85 },
