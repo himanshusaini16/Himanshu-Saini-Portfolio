@@ -18,7 +18,6 @@ export const Profile = () => (
     <p className="text-xl mb-6 h-6 text-blue-400 font-semibold">
       <Typewriter
         words={[
-          "Associate IT Support Engineer",
           "Technical Support Engineer",
           "Full-Stack Developer",
           "Software Engineer",
